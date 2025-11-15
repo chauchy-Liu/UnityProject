@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build Lesson-02",
+			"command": "dotnet",
+			"type": "shell",
+			"args": [
+				"build",
+				"${workspaceRoot}/Lesson-02/Lesson-02.csproj"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "build Lesson-snl",
+			"command": "dotnet",
+			"type": "shell",
+			"args": [
+				"build",
+				"${workspaceRoot}/CSharp-Lesson.slnx"
+			],
+			"problemMatcher": "$msCompile"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/bin/Debug/net10.0/Lesson-02
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/bin/Debug/net10.0/Lesson-02.deps.json
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/bin/Debug/net10.0/Lesson-02.runtimeconfig.json
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/bin/Debug/net10.0/Lesson-02.dll
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/bin/Debug/net10.0/Lesson-02.pdb
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.AssemblyInfoInputs.cache
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.AssemblyInfo.cs
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.csproj.CoreCompileInputs.cache
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.dll
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/refint/Lesson-02.dll
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.pdb
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/Lesson-02.genruntimeconfig.cache
+/Users/liuchuanxi/项目/Unity/CSharp-Lesson/Lesson-02/obj/Debug/net10.0/ref/Lesson-02.dll
