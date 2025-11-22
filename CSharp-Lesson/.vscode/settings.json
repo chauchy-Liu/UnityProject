@@ -1,0 +1,8 @@
+{
+  // "csharp.format.enable": false,
+  // "csharp.format.newLine.beforeOpenBrace": "sameLine",
+  // "csharp.format.newLine.beforeElse": false,
+  // "csharp.format.newLine.beforeCatch": false,
+  // "csharp.format.newLine.beforeFinally": false,
+  // "csharp.format.indentBraces": false
+}

@@ -1,10 +1,10 @@
 using System;
 
-// static void fun()
-// {
-//     Console.WriteLine("Hello, World!");
-// }
-// int a = 10;
+/* static void fun()
+{
+    Console.WriteLine("Hello, World!");
+}
+int a = 10; */
 namespace Lesson03.值传递和引用传递
 {
     class Student{
@@ -27,6 +27,10 @@ namespace Lesson03.值传递和引用传递
             a = b;
             b = t;
         }
+        public static void Fun(out int a)
+        {
+          	a = 250;
+        }
         static void Main(string[] args)
         {
             int x = 20, y = 30;
@@ -43,6 +47,11 @@ namespace Lesson03.值传递和引用传递
             Console.WriteLine("值类型ref传递交换前ref x={0}, ref y={1}", x, y);
             Swap(ref x, ref y); //ref 必须初始化实参
             Console.WriteLine("值类型ref传递交换后ref x={0}, ref y={1}", x, y);
+
+            int z;
+            Console.WriteLine("值类型out传递交换前out z：{0}", "未定义初始值");
+            Fun(out z); //out 不必初始化实参
+            Console.WriteLine("值类型out传递交换后out z={0}", z);
         }
     }
 }

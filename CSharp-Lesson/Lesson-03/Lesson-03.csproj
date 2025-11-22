@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <!-- 指定启动对象 -->
-    <StartupObject>Lesson03.值传递和引用传递.PassParameter</StartupObject> <!-- 命名空间的名字不是目录的名字 -->
+    <StartupObject>Lesson03.面向对象.ObjectProgram</StartupObject> <!-- 命名空间的名字不是目录的名字 -->
   </PropertyGroup>
 
 </Project>
