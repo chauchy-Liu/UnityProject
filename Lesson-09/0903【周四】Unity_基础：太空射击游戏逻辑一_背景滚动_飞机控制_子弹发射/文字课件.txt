@@ -1,0 +1,71 @@
+/*-----------------本节课内容-----------------------------
+  U3D项目之Space Shooter_背景、我机、子弹和边界
+    1、背景、我机、边界
+    2、子弹 ~ 了解纹理类型
+    3、游戏边界
+----------------------------------------------------------
+前言：
+    制作游戏第一件事情，确定游戏分辨率。//Manual 搜索  Standalone Player Settings
+
+     VFX - 粒子特效
+        
+一、 Space Shooter_背景、我机、边界
+    1、背景
+        A、背景面片 - 默认纹理类型 + 材质类型：unLit/Texture
+        B、游戏分辨率 - 600 x 900  //1:1.5
+
+    2、我机
+        A、打光 - FillLight、TrimLight，作为 子物体
+            飞机作好后再打光，照出飞机的立体感
+
+            通过Light组件的“Indirect Multiplier”参数，可以设置一个灯光的间接光贡献度。
+            举例来说，如果你希望禁用间接光贡献度，可以把这个参数设置为0。
+
+        B、预置体制作
+            模型作为子物体
+            子弹发射点 ------------------
+            碰撞体组件设置： 我机的MeshCollider勾选Convex后，设置碰撞体组件为触发器，避免位置震荡。
+
+        C、功能脚本组件 - 移动控制
+            public void FixedUpdate()
+            {
+                float xDeltaMove = Input.GetAxis("Horizontal");
+                float zDeltaMove = Input.GetAxis("Vertical");
+
+                Vector3 movement = new Vector3(xDeltaMove, 0, zDeltaMove);
+
+                //直接根据输入量的大小的方向，制定我机的速度
+                this.GetComponent<Rigidbody>().velocity = movement * MoveSpeed;
+
+                //根据输入量的大小，来确定我机的倾斜角度
+                this.GetComponent<Rigidbody>().rotation = Quaternion.Euler(
+                    0.0f,
+                    0.0f,
+                    this.GetComponent<Rigidbody>().velocity.x * -tilt  //根据我机速度的x分量
+                    );
+            }
+            
+        D、移动边界 
+            //规范飞机的位置
+            this.transform.position = new Vector3(
+                Mathf.Clamp(this.transform.position.x, moveBorder.xMin, moveBorder.xMax),
+                this.GetComponent<Rigidbody>().position.y,
+                Mathf.Clamp(this.transform.position.z, moveBorder.zMin, moveBorder.zMax)
+                );
+                    
+二、子弹 
+    1、子弹预置体的制作子弹面片
+        A、子弹面片 - 默认纹理类型 + 材质类型：particles/Additive
+     
+        B、子弹:  添加刚体，去掉重力 + 子弹碰撞体组件为触发器，避免相互碰撞。
+        
+        C、功能脚本组件 - 移动控制
+
+            
+    2、子弹的发射- 功能脚本组件 ~ PlayerController
+        
+
+        
+三、游戏边界
+
+*/
