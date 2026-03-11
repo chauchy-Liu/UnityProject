@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.2637236, y: 0.65444, z: -0.26215148, w: -0.65836704}
     speed: 2
-    m_Value: {x: -0.26372197, y: 0.65443593, z: -0.26214984, w: -0.658363}
+    m_Value: {x: -0.2637236, y: 0.65444, z: -0.26215148, w: -0.65836704}
   m_Size:
     m_Target: 19.463358
     speed: 2
@@ -777,23 +777,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86690000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8a12ffffe840ffffccadffff66aefffff2f0ffff045e0000
+      m_ExpandedIDs: 2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Cylinder(Clone)
-        m_OriginalName: Cylinder(Clone)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -85004
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -898,7 +898,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 145a0000
     m_LastClickedID: 23060
-    m_ExpandedIDs: 00000000745e0000765e0000785e00007a5e0000
+    m_ExpandedIDs: 00000000045d0000065d0000085d00000a5d00000c5d00000e5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -926,21 +926,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000745e0000765e0000785e00007a5e00009c5e000058690000
+    m_ExpandedIDs: ffffffff00000000045d0000065d0000085d00000a5d00000c5d00000e5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PickUpRayTest
-      m_OriginalName: PickUpRayTest
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27694
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 

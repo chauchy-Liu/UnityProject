@@ -1,0 +1,23 @@
+<root>
+  <hero name="赵云" atk="35" def="12" hp="1000">
+    <bag>
+      <item id="10025" name="青釭剑" />
+      <item id="10026" name="大还丹" />
+      <item id="10035" name="巨鳄枪" />
+    </bag>
+  </hero>
+  <hero name="张飞" atk="45" def="22" hp="2000">
+    <bag>
+      <item id="10025" name="锁子甲" />
+      <item id="10026" name="酒" />
+      <item id="10035" name="丈八蛇矛" />
+    </bag>
+  </hero>
+  <hero name="关羽" atk="55" def="19" hp="1700">
+    <bag>
+      <item id="10025" name="佩剑" />
+      <item id="10026" name="赤兔马" />
+      <item id="10035" name="青龙偃月刀" />
+    </bag>
+  </hero>
+</root>
